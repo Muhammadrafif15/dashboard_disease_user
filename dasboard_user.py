@@ -95,7 +95,7 @@ class PregnancyDiseasePredictor:
 def main():
     # load model machine learning
     try :
-        model = joblib.load('model.pkl.pkl')
+        model = joblib.load('modelterbaru.pkl')
     except FileExistsError:
         st.error("Model tidak ditemukan pastikan nama file benar !!")
         return
